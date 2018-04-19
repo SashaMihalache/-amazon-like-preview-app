@@ -1,0 +1,33 @@
+{
+  "name": "preview-app",
+  "version": "1.0.0",
+  "description": "An amazon-like preview application using cloudinary",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oreHGA/amazon-like-preview-app.git"
+  },
+  "keywords": [
+    "cloudinary",
+    "video",
+    "preview"
+  ],
+  "author": "Oreoluwa Ogundipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oreHGA/amazon-like-preview-app/issues"
+  },
+  "homepage": "https://github.com/oreHGA/amazon-like-preview-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cloudinary": "^1.9.1",
+    "connect-multiparty": "^2.1.0",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  }
+}
